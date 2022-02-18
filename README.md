@@ -24,7 +24,6 @@ This project there are in [this course at Udemy](https://www.udemy.com/share/105
 ## 🔎  ACTIONS
 [![REPORT ISSUE](https://img.shields.io/badge/-⚠️_REPORT_ISSUE-grey?style=flat-square&logo=pull_request&logoColor=white)](https://github.com/PaoloProdossimoLopes/java-android-house-per-season-app/issues)
 [![PULL REQUEST](https://img.shields.io/badge/-⤴️_PULL_REQUEST-grey?style=flat-square&logo=pull_request&logoColor=white)](https://github.com/PaoloProdossimoLopes/java-android-house-per-season-app/pulls)
--->
 
 
 <!-- Index -->
