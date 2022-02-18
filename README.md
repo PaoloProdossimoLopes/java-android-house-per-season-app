@@ -7,7 +7,8 @@
 # 👾 HOUSE PER SEASON
 
 <!-- DESCRIPTION -->
-In this project I'll create an application named "House per Season". The objective is study more about andorid.
+In this project I'll create an application named "House per Season". The objective is study more about andorid.<br/>
+This project there are in [this course at Udemy](https://www.udemy.com/share/105E3a3@dQd5MnumAUMyg8jrmi9nEIePN2uCirIYpWW4VO1iNr6tI54hcbmTA_4EdmA61yAi/). Teached by Arley Santana
 
 
 
