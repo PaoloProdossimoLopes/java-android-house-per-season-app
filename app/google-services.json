@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "142354840207",
+    "project_id": "house-per-season",
+    "storage_bucket": "house-per-season.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142354840207:android:92b7cda24f53f4b43d8efa",
+        "android_client_info": {
+          "package_name": "com.paoloprodossimolopes.houseperseason"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142354840207-n5dp7vkbp0olr5flg9qtfdr80fqvkcrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Xr6Zp_VSfzHsx1PpelA45H09Fr5woRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142354840207-n5dp7vkbp0olr5flg9qtfdr80fqvkcrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
