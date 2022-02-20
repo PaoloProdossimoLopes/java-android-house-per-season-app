@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 import com.paoloprodossimolopes.houseperseason.R;
 
@@ -18,7 +21,10 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        commonInit();
+    }
 
+    private void commonInit() {
         cofigureClicks();
         configureUIComponents();
     }
@@ -26,6 +32,9 @@ public class LoginActivity extends AppCompatActivity {
     private void configureUIComponents() {
         emailET = findViewById(R.id.loginScreen_emailEditText);
         passwordET = findViewById(R.id.loginScreen_passwordEditText);
+
+        ((TextView) findViewById(R.id.backTollbar_title)).setText("Login");
+        ((ImageButton) findViewById(R.id.backToolbar_button)).setVisibility(View.INVISIBLE);
     }
 
     private void cofigureClicks() {
@@ -50,7 +59,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void forgotPasswordHandle() {
-
+        Intent intent = new Intent(this, ForgotPasswordActivity.class);
+        startActivity(intent);
     }
 
 }

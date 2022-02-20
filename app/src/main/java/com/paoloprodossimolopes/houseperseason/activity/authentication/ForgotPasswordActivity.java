@@ -7,12 +7,12 @@ import android.widget.TextView;
 
 import com.paoloprodossimolopes.houseperseason.R;
 
-public class RegistrationActivity extends AppCompatActivity {
+public class ForgotPasswordActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registration);
+        setContentView(R.layout.activity_forgot_password);
 
         commonInit();
     }
@@ -23,13 +23,12 @@ public class RegistrationActivity extends AppCompatActivity {
     }
 
     private void configureClicks() {
-        //BACK BUTTON IN TOOLBAR
+        //BACK BUTTON
         findViewById(R.id.backToolbar_button).setOnClickListener(view -> finish());
     }
 
     private void configureComponents() {
         TextView toolBarTitleTextView = findViewById(R.id.backTollbar_title);
-        toolBarTitleTextView.setText(R.string.registerScreen_toolBarTitle);
+        toolBarTitleTextView.setText(R.string.forgotPasswordScreen_toolBarTitle);
     }
-
 }

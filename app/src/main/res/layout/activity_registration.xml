@@ -8,7 +8,7 @@
     tools:context=".activity.authentication.RegistrationActivity">
 
     <include
-        android:id="@+id/include"
+        android:id="@+id/registerScreen_tollbar_backButton"
         layout="@layout/back_toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,7 +20,7 @@
         android:fillViewport="true"
         app:layout_constraintBottom_toTopOf="@+id/loginScreen_footerSectionLinearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:layout_constraintTop_toBottomOf="@+id/registerScreen_tollbar_backButton"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bg_edit"
-                android:hint="Nome"
+                android:hint="@string/nameTextViewHint"
                 android:inputType="textEmailAddress"
                 android:padding="10dp" />
 
@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bg_edit"
-                android:hint="Telefone"
+                android:hint="@string/phoneTextViewHint"
                 android:inputType="number"
                 android:padding="10dp" />
 
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bg_edit"
-                android:hint="@string/loginScreen_emailHint"
+                android:hint="@string/emailTextViewHint"
                 android:inputType="textEmailAddress"
                 android:padding="10dp" />
 
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bg_edit"
-                android:hint="@string/loginScreen_passwordHint"
+                android:hint="@string/passwordTextViewHint"
                 android:inputType="textPassword"
                 android:padding="10dp" />
 
@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/bg_btn"
-                android:text="REGITRE-SE"
+                android:text="@string/registerScreen_buttonTitle"
                 android:textAllCaps="true"
                 android:textColor="@color/white" />
 

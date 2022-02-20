@@ -7,44 +7,50 @@
     android:layout_height="match_parent"
     tools:context=".activity.authentication.LoginActivity">
 
+    <include
+        android:id="@+id/include2"
+        layout="@layout/back_toolbar" />
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:fillViewport="true"
         app:layout_constraintBottom_toTopOf="@+id/loginScreen_footerSectionLinearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/include2">
 
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:orientation="vertical"
             android:padding="24dp"
-            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
+            <!-- EMAIL -->
             <EditText
                 android:id="@+id/loginScreen_emailEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bg_edit"
-                android:hint="@string/loginScreen_emailHint"
+                android:hint="@string/emailTextViewHint"
                 android:inputType="textEmailAddress"
                 android:padding="10dp" />
 
+            <!-- PASSWORD -->
             <EditText
                 android:id="@+id/loginScreen_passwordEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bg_edit"
-                android:hint="@string/loginScreen_passwordHint"
+                android:hint="@string/passwordTextViewHint"
                 android:inputType="textPassword"
                 android:padding="10dp" />
 

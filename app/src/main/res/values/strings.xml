@@ -1,11 +1,26 @@
 <resources>
     <string name="app_name">HousePerSeason</string>
 
+    <!-- Edit text hints -->
+    <string name="emailTextViewHint">E-mail</string>
+    <string name="passwordTextViewHint">Senha</string>
+    <string name="nameTextViewHint">Nome</string>
+    <string name="phoneTextViewHint">Telefone</string>
+
     <!-- Login Screen -->
-    <string name="loginScreen_emailHint">E-mail</string>
-    <string name="loginScreen_passwordHint">Senha</string>
     <string name="loginScreen_buttonText">ENTRAR</string>
     <string name="loginScreen_forgotAccountText">Esqueceu sua senha?</string>
     <string name="loginScreen_AlreadyHaveNotAccountPartOne">Ainda\ nao\ possui\ uma\ conta?\ </string>
     <string name="loginScreen_AlreadyHaveNotAccountPartTwo">Cadastre-se</string>
+
+    <!-- Register screen -->
+    <string name="registerScreen_toolBarTitle">Crie sua conta</string>
+    <string name="registerScreen_buttonTitle">REGITRE-SE</string>
+    <string name="registerScreen_alreadyHaveAccountPartOne">Já possui uma conta? </string>
+    <string name="registerScreen_alreadyHaveAccountPartTwo">Entre</string>
+
+    <!-- Forgot password screen -->
+    <string name="forgotPasswordScreen_toolBarTitle">Recuperar conta</string>
+    <string name="forgotPasswordScreen_instructionToRecoveryAccount">Insira seu e-mail abaixo para receber um link \ne poder alterar a senha da sua conta.</string>
+    <string name="forgotPasswordScreen_recoveryButtonTitle">RECUPERAR CONTA</string>
 </resources>
