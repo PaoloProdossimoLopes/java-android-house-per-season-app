@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HousePerSeason">
         <activity
-            android:name=".activity.authentication.LoginActivity"
+            android:name=".activity.authentication.RegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.authentication.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
