@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">HousePerSeason</string>
+
+    <!-- Login Screen -->
+    <string name="loginScreen_emailHint">E-mail</string>
+    <string name="loginScreen_passwordHint">Senha</string>
+    <string name="loginScreen_buttonText">ENTRAR</string>
+    <string name="loginScreen_forgotAccountText">Esqueceu sua senha?</string>
+    <string name="loginScreen_AlreadyHaveAccountPartOne">Ainda\ nao\ possui\ uma\ conta?\ </string>
+    <string name="loginScreen_AlreadyHaveAccountPartTwo">Cadastre-se</string>
 </resources>

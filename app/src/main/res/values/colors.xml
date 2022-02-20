@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="house_per_season_light_blue">#9CD0FC</color>
+    <color name="house_per_season_blue">#279AFB</color>
 </resources>

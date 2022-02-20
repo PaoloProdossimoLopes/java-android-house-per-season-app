@@ -1,8 +1,10 @@
-package com.paoloprodossimolopes.houseperseason;
+package com.paoloprodossimolopes.houseperseason.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.paoloprodossimolopes.houseperseason.R;
 
 public class MainActivity extends AppCompatActivity {
 
