@@ -33,7 +33,11 @@ public class LoginActivity extends AppCompatActivity {
         emailET = findViewById(R.id.loginScreen_emailEditText);
         passwordET = findViewById(R.id.loginScreen_passwordEditText);
 
-        ((TextView) findViewById(R.id.backTollbar_title)).setText("Login");
+        configureToolbarComponent();
+    }
+
+    private void configureToolbarComponent() {
+        ((TextView) findViewById(R.id.backTollbar_title)).setText(R.string.loginScreen_toolbarTitle);
         ((ImageButton) findViewById(R.id.backToolbar_button)).setVisibility(View.INVISIBLE);
     }
 
@@ -62,5 +66,4 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ForgotPasswordActivity.class);
         startActivity(intent);
     }
-
 }
